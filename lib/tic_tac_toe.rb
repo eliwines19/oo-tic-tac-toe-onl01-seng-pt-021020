@@ -33,7 +33,7 @@ class TicTacToe
   def position_taken?(position_num)
     if position_num = ("")
       true
-    else 
+    else
       false
     end
   end
