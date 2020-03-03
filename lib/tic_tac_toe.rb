@@ -84,6 +84,7 @@ class TicTacToe
     @board.all?{|occupied| occupied != " "}
   end
 
-  def draw
+  def draw?
+    
   end
 end
