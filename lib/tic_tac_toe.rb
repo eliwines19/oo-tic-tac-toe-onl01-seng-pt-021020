@@ -32,9 +32,9 @@ class TicTacToe
 
   def position_taken?(position_num)
     if position_num = ("1..9")
-      false
-    else
       true
+    else
+      false
     end
   end
 end
