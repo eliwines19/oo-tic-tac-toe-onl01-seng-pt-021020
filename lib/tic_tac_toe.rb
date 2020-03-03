@@ -30,5 +30,6 @@ class TicTacToe
     @board[position] = x_or_o
   end
 
-  
+  def position_taken?
+  end
 end
