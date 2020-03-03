@@ -80,5 +80,10 @@ class TicTacToe
       end
     end
 
-  
+  def full?
+    @board.all?{|occupied| occupied != " "}
+  end
+
+  def draw
+  end
 end
